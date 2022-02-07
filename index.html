@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title> We Playing BasketBall</title>
+</head>
+<body>
+  <section class="Team-one container-fluid">
+    <div class="row text-center">
+      <div class="col-6">
+        <div>
+          Team one:
+        </div>
+<div id="teamOneScore">0</div>
+      </div>
+      <div class="col-6">
+<div>Team 2:</div>
+<div id="teamTwoScore">0</div>
+      </div>
+    </div>
+    <div class="row text-center p-3">
+      <div class="col-6">
+        <button class="shoot2" onclick="shoot()">shoot 2pt</button>
+        <button class="shoot3" onclick="shoot3()">Shoot 3pt</button>
+      </div>
+      <div class="col-6">
+        <button class="teamTwoShoot" onclick="teamTwoShoot()">shoot 2pt</button>
+        <button class="teamTwoShoot3" onclick="teamTwoShoot3()">Shoot 3pt</button>
+      </div>
+    </div>
+  </section>
+</body>
+<script
+src="app.js"></script>
+</html>
